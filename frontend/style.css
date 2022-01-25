@@ -1,0 +1,177 @@
+/* --- start of CSS reset --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    height: 700px;
+    width: 1500px;
+    
+    background-color: gray;
+    
+}
+
+#menu {
+    height: 100px;
+    width: 1500px;
+    
+    z-index: 10;
+
+    background-color: white;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#menu button {
+    width: 300px;
+    height: 70px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    font-size: 30px;
+    
+    padding-top: 15px;
+    
+    margin: 20px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.15);
+
+    transition: all 0.5s ease;
+
+    text-transform: uppercase;
+}
+
+#menu button:hover {
+    background-color: rgba(9, 97, 104, 1);
+
+    box-shadow: inset 0px 0px 10px rgba(9, 97, 104, 1);
+
+    border: 1px solid rgba(0, 0, 0, 0.05);
+
+    color: white;
+
+    transition: all 0.5s ease, height 0.5s linear;
+} 
+
+#button1:hover {
+    height: 254px;
+}
+
+#button1 ul {
+    visibility: hidden;
+    list-style: none;
+
+    margin-top: 20px;
+
+    color: white;
+
+    overflow: hidden;
+}
+
+#button1 li {
+
+    width: 300px;
+    height: 45px;
+
+    text-align: left;
+
+    padding: 10px;
+    padding-left: 20px;
+    
+    font-size: 25px;
+
+    text-transform: none;
+
+    transition: all 0.5s linear;
+    /* overflow: hidden; */
+}
+
+#button1:hover ul {
+    display: block;
+
+    color: white;
+
+    opacity: 1;
+    visibility: visible;
+
+    transition: visibility 0s, opacity 1s linear;
+
+}
+
+#button1 li:hover {
+    background-color: rgba(30, 9, 105, 0.4);
+
+    box-shadow: inset 0px 0px 10px rgba(30, 9, 105, 0.4);
+}
+
+p {
+    display: flex;
+    
+    width: 1500px;
+    height: 700px;
+;
+    align-items: center;
+}
+
+#visszagomb {
+    float: left;
+    width: 40px;
+    height: 40px;
+
+    border-radius: 20px;
+
+    background-color: chartreuse;
+
+
+}
