@@ -105,7 +105,7 @@ body {
 } 
 
 #button1:hover {
-    height: 254px;
+    height: 273px;
 }
 
 #button1 ul {
@@ -127,6 +127,7 @@ body {
     text-align: left;
 
     padding: 10px;
+    padding-bottom: 40px;
     padding-left: 20px;
     
     font-size: 25px;
@@ -145,7 +146,7 @@ body {
     opacity: 1;
     visibility: visible;
 
-    transition: visibility 0s, opacity 1s linear;
+    transition: visibility 0s, opacity 0.5s linear;
 
 }
 
