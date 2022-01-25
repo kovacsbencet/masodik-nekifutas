@@ -51,7 +51,9 @@ body {
     height: 700px;
     width: 1500px;
     
-    background-color: gray;
+    background-color: white;
+    
+    border: 1px solid rgba(0, 0, 0, 0.15);
     
 }
 
@@ -87,19 +89,17 @@ body {
     
     border: 1px solid rgba(0, 0, 0, 0.15);
 
-    transition: all 0.5s ease;
-
     text-transform: uppercase;
 }
 
 #menu button:hover {
     background-color: rgba(9, 97, 104, 1);
 
-    box-shadow: inset 0px 0px 10px rgba(9, 97, 104, 1);
+    box-shadow: inset 0px 0px 20px rgba(9, 97, 104, 1);
 
     border: 1px solid rgba(0, 0, 0, 0.05);
 
-    color: white;
+    color: rgb(255, 255, 255);
 
     transition: all 0.5s ease, height 0.5s linear;
 } 
@@ -109,7 +109,7 @@ body {
 }
 
 #button1 ul {
-    visibility: hidden;
+    visibility: hidden;    
     list-style: none;
 
     margin-top: 20px;
@@ -120,7 +120,6 @@ body {
 }
 
 #button1 li {
-
     width: 300px;
     height: 45px;
 
@@ -134,20 +133,11 @@ body {
 
     text-transform: none;
 
-    transition: all 0.5s linear;
-    /* overflow: hidden; */
+    transition: all 0.5s ease;
 }
 
 #button1:hover ul {
-    display: block;
-
-    color: white;
-
-    opacity: 1;
     visibility: visible;
-
-    transition: visibility 0s, opacity 0.5s linear;
-
 }
 
 #button1 li:hover {
@@ -158,21 +148,55 @@ body {
 
 p {
     display: flex;
+    position: relative;
     
     width: 1500px;
     height: 700px;
-;
-    align-items: center;
 }
 
 #visszagomb {
-    float: left;
-    width: 40px;
-    height: 40px;
+    position: relative;
+    top: 630px;
+    left: 25px;
 
-    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 25px;
 
     background-color: chartreuse;
 
+    font-size: 30px;
+    padding-bottom: 4px;
 
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#eloregomb {
+    position: relative;
+    top: 630px;
+    left: 1375px;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 25px;
+
+    background-color: chartreuse;
+
+    font-size: 30px;
+    padding-bottom: 4px;
+
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#cim {
+    font-size: 50px;
+}
+
+#nev {    
+    position: relative;
+    top: 20px;
+    left: -70px;
+    font-size: 50px;
 }
