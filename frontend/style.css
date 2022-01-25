@@ -147,7 +147,7 @@ body {
 }
 
 p {
-    display: flex;
+
     position: relative;
     
     width: 1500px;
@@ -158,6 +158,8 @@ p {
     position: relative;
     top: 630px;
     left: 25px;
+
+    z-index: 9;
 
     width: 50px;
     height: 50px;
@@ -177,6 +179,8 @@ p {
     top: 630px;
     left: 1375px;
 
+    z-index: 9;
+
     width: 50px;
     height: 50px;
 
@@ -191,12 +195,30 @@ p {
 }
 
 #cim {
+    display: block;
+
+    height: 50px;
+    width: 1500px;
+
     font-size: 50px;
+    text-align: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#nev {    
+#nev {   
     position: relative;
+
+    height: fit-content;
+
     top: 20px;
     left: -70px;
     font-size: 50px;
+}
+
+#leiras {
+    position: relative;
+    top: 100px;
+    left: 100px;
 }
