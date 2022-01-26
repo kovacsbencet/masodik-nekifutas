@@ -48,7 +48,7 @@ body {
 }
 
 #main {
-    height: 700px;
+    height: 770px;
     width: 1500px;
     
     background-color: white;
@@ -146,12 +146,13 @@ body {
     box-shadow: inset 0px 0px 10px rgba(30, 9, 105, 0.4);
 }
 
-p {
-
+#content {
     position: relative;
     
     width: 1500px;
     height: 700px;
+
+    padding: 30px;
 }
 
 #visszagomb {
@@ -198,27 +199,51 @@ p {
     display: block;
 
     height: 50px;
-    width: 1500px;
 
     font-size: 50px;
     text-align: center;
 
-    padding-top: 30px;
     padding-bottom: 30px;
 }
 
-#nev {   
-    position: relative;
-
-    height: fit-content;
-
-    top: 20px;
-    left: -70px;
-    font-size: 50px;
+#alcim {
+    display: block;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-#leiras {
-    position: relative;
-    top: 100px;
-    left: 100px;
+#szoveg {
+    display:inline-block;
+    width:auto;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+img {
+    border: 1px solid black;
+}
+
+
+.kepek {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+
+    justify-content: center;
+
+    margin-top: 60px;
+}
+
+.kepszoveg {
+    text-align: center;
+    width: 360px;  
+}
+
+.kepalatt {
+    display: block;
+    font-size: 25px;
 }

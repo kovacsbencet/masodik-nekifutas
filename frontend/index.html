@@ -15,8 +15,8 @@
 <body>
 	<div id="menu">
 		<button id="button1">
-			Csapat tagjai
-			<ul >
+			<div id="fooldal" onclick="fooldal()">A csapat</div>
+			<ul>
 				<li onclick="km()">Keresztes Mirella</li>
 				<li onclick="mr()">Márta Richárd</li>
 				<li onclick="bb()">Buczkó Balázs</li>
@@ -24,16 +24,32 @@
 			</ul>
 		</button>
 		<button onclick="prezi()">Prezentáció</button>
-		<button onclick="location.href='https://www.google.com'"" type="button">Másik csapat</button>
+		<button onclick="masikcsapat()" type="button">Másik csapat</button>
 		<button onclick="mr()">Negyedik gomb</button>
 	</div>
 	
 	<div id="main">
-		<p>
+		<div id="content">
 			<span id="cim">A torMENTOR csapat</span>
-			<img src="kep.jpg"></img>
-			<span id="leiras">csapat leírása</span>
-		</p>
+			<div class="kepek">
+				<div class="kepszoveg">
+					<img src="placeholder.jpg"/>
+					<span class="kepalatt">Keresztes Mirella</span>
+				</div>
+				<div class="kepszoveg">
+					<img src="placeholder.jpg"/>
+					<span class="kepalatt">Márta Richárd</span>
+				</div>
+				<div class="kepszoveg">
+					<img src="placeholder.jpg"/>
+					<span class="kepalatt">Buczkó Balázs</span>
+				</div>
+				<div class="kepszoveg">
+					<img src="placeholder.jpg"/>
+					<span class="kepalatt">Kovács Bence</span>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
