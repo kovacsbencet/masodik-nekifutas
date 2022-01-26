@@ -44,7 +44,7 @@ body {
     justify-content: center;
     align-items: center;
     
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Metal Mania', cursive;
 }
 
 #main {
@@ -53,21 +53,21 @@ body {
     
     background-color: white;
     
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(19, 18, 18, 0.911);
     
 }
 
 #menu {
-    height: 100px;
+    height: 110px;
     width: 1500px;
     
-    z-index: 10;
-
-    background-color: white;
+    z-index: 100;
+    color: white;
+    background-color: rgb(5, 5, 5);
     
     margin-top: 30px;
     margin-bottom: 30px;
-    
+
     display: flex;
     justify-content: center;
 }
@@ -88,7 +88,6 @@ body {
     margin: 20px;
     
     border: 1px solid rgba(0, 0, 0, 0.15);
-
     text-transform: uppercase;
 }
 
@@ -155,46 +154,6 @@ body {
     padding: 30px;
 }
 
-#visszagomb {
-    position: relative;
-    top: 630px;
-    left: 25px;
-
-    z-index: 9;
-
-    width: 50px;
-    height: 50px;
-
-    border-radius: 25px;
-
-    background-color: chartreuse;
-
-    font-size: 30px;
-    padding-bottom: 4px;
-
-    border: 1px solid rgba(0, 0, 0, 0.15);
-}
-
-#eloregomb {
-    position: relative;
-    top: 630px;
-    left: 1375px;
-
-    z-index: 9;
-
-    width: 50px;
-    height: 50px;
-
-    border-radius: 25px;
-
-    background-color: chartreuse;
-
-    font-size: 30px;
-    padding-bottom: 4px;
-
-    border: 1px solid rgba(0, 0, 0, 0.15);
-}
-
 #cim {
     display: block;
 
@@ -224,7 +183,7 @@ body {
 }
 
 img {
-    border: 1px solid black;
+    border: 10px solid black;
 }
 
 .logo {

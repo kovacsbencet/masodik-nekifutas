@@ -1,5 +1,3 @@
-const preziszoveg = `<div id="content"><button id="visszagomb" onclick="vissza()">←</button><button id="eloregomb">→</button> proba szoveg </div>`
-
 const fooldalszoveg = `
     <div id="content">
         <span id="cim"><img class="logo" src="logo.jpg"/></span>
@@ -9,15 +7,15 @@ const fooldalszoveg = `
                 <span class="kepalatt">Keresztes Mirella</span>
             </div>
             <div class="kepszoveg">
-                <img src="placeholder.jpg"/>
+                <img src="mr.jpg"/>
                 <span class="kepalatt">Márta Richárd</span>
             </div>
             <div class="kepszoveg">
-                <img src="placeholder.jpg"/>
+                <img src="BB.jpg"/>
                 <span class="kepalatt">Buczkó Balázs</span>
             </div>
             <div class="kepszoveg">
-                <img src="placeholder.jpg"/>
+                <img src="kovacsbencet.png"/>
                 <span class="kepalatt">Kovács Bence</span>
             </div>
         </div>
@@ -60,14 +58,17 @@ const bbszoveg = `
     <div id="content">
         <span id="cim">Buczkó Balázs</span>
         <span id="alcim">Education</span>
-
+        <span id="szoveg">Budapesti Közgazdaságtudományi Egyetem</span>
         <span id="alcim">Working Field</span>
-
+        <span id="szoveg">Flextronics - Tervezés/Belső vevői kapcsolattartás</span>
+        <span id="szoveg">Siemens Zrt. - Beszerzés (Operatív és Stratégiai)</span>
+        <span id="szoveg">Ganz - Stratégiai beszerzés</span>
         <span id="alcim">Motivation</span>
-
+        <span id="szoveg">Belekezdeni valamibe, ami teljesn más, mint a gépgyártás iparág.</span>
         <span id="alcim">One Special</span>
-
+        <span id="szoveg">Elvégeztem egy koktéltanfolyamot.</span>
         <span id="alcim">Craziest story</span>
+        <span id="szoveg">Kislányom (Bori) cseperedését megélni.</span>  
     </div>
 `
 
@@ -78,14 +79,13 @@ const kbszoveg = `
         <span id="alcim">Education</span>
         <span id="szoveg">Soproni Egyetem közgáz</span>
         <span id="alcim">Working Field</span>
-        <span id="szoveg">2 évig projektmenedzser, jelenleg szabadúszó 
-        vállalkozóként dolgozom, többek között weboldal készítéssel, 
-        hirdetéskezeléssel és grafikai tervezéssel foglalkozom.</span>
+        <span id="szoveg">Pannon Business Network - Junior projektmenedzser</span>
+        <span id="szoveg">Egyéni vállalkozás - Weboldal készítés, Grafikai tervezés, Hirdetéskezelés</span>
         <span id="alcim">Motivation</span>
-
-        <span id="alcim">One Special</span>
-
-        <span id="alcim">Craziest story</span>
+        <span id="szoveg"></span>
+        <span id="alcim">3 thins about me</span>
+        <span id="szoveg"></span>
+        <span id="alcim">3 celebrities to: have sex with, marry, or punch - (don't tell which is which)</span>
     </div>
 `
 
@@ -131,12 +131,6 @@ function fooldal() {
     fo.insertAdjacentHTML("beforeend", fooldalszoveg)
 }
 
-function prezi() {
-    const fo = document.getElementById("main")
-    fo.innerHTML = ""
-    fo.insertAdjacentHTML("beforeend", preziszoveg)
-}
-
 function masikcsapat() {
     const fo = document.getElementById("main")
     fo.innerHTML = ""
@@ -147,12 +141,6 @@ function bemutatkozo(szoveg) {
     const fo = document.getElementById("main")
     fo.innerHTML = ""
     fo.insertAdjacentHTML("beforeend", szoveg)
-}
-
-function vissza() {
-    const fo = document.getElementById("main")
-    fo.innerHTML = ""
-    fo.insertAdjacentHTML("beforeend", kiirando)
 }
 
 function km() {
@@ -169,4 +157,27 @@ function bb() {
 
 function kb() {
     bemutatkozo(kbszoveg)
+}
+
+var betuszam = 0;
+
+function betu() {
+    if (betuszam == 0) {
+        var betutipus = document.getElementById("main")
+        var betutipus2 = document.getElementById("menu")
+        betutipus.style.fontFamily = "Montserrat"
+        betutipus.style.color = "magenta"
+        betutipus2.style.fontFamily = "Montserrat"
+        betutipus2.style.color = "magenta"
+        betuszam++
+    }
+    else {
+        var betutipus = document.getElementById("main")
+        var betutipus2 = document.getElementById("menu")
+        betutipus.style.fontFamily = "Metal Mania"
+        betutipus.style.color = "black"
+        betutipus2.style.fontFamily = "Metal Mania"
+        betutipus2.style.color = "white"
+        betuszam--
+    }
 }
