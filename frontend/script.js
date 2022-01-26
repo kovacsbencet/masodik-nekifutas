@@ -2,7 +2,7 @@ const preziszoveg = `<div id="content"><button id="visszagomb" onclick="vissza()
 
 const fooldalszoveg = `
     <div id="content">
-        <span id="cim">A torMENTOR csapat</span>
+        <span id="cim"><img class="logo" src="logo.jpg"/></span>
         <div class="kepek">
             <div class="kepszoveg">
                 <img src="placeholder.jpg"/>
@@ -24,16 +24,70 @@ const fooldalszoveg = `
     </div>`
 
 const kmnev = 'Keresztes Mirella'
-const kmszoveg = 'km szovegek'
+const kmszoveg = `
+    <div id="content">
+        <span id="cim">Keresztes Mirella</span>
+        <span id="alcim">Education</span>
+
+        <span id="alcim">Working Field</span>
+
+        <span id="alcim">Motivation</span>
+
+        <span id="alcim">One Special</span>
+
+        <span id="alcim">Craziest story</span>
+    </div>
+`
 
 const mrnev = 'Márta Richárd'
-const mrszoveg ='ide fogom irni a dolgokat'
+const mrszoveg =`
+    <div id="content">
+        <span id="cim">Márta Richárd</span>
+        <span id="alcim">Education</span>
+        <span id="szoveg">Informatikai gimnázium</span>
+        <span id="alcim">Working Field</span>
+
+        <span id="alcim">Motivation</span>
+
+        <span id="alcim">One Special</span>
+
+        <span id="alcim">Craziest story</span>
+    </div>
+`
 
 const bbnev = 'Buczkó Balázs'
-const bbszoveg = 'bb szoveg'
+const bbszoveg = `
+    <div id="content">
+        <span id="cim">Buczkó Balázs</span>
+        <span id="alcim">Education</span>
+
+        <span id="alcim">Working Field</span>
+
+        <span id="alcim">Motivation</span>
+
+        <span id="alcim">One Special</span>
+
+        <span id="alcim">Craziest story</span>
+    </div>
+`
 
 const kbnev = 'Kovács Bence'
-const kbszoveg = 'kb szoveg'
+const kbszoveg = `
+    <div id="content">
+        <span id="cim">Kovács Bence</span>
+        <span id="alcim">Education</span>
+        <span id="szoveg">Soproni Egyetem közgáz</span>
+        <span id="alcim">Working Field</span>
+        <span id="szoveg">2 évig projektmenedzser, jelenleg szabadúszó 
+        vállalkozóként dolgozom, többek között weboldal készítéssel, 
+        hirdetéskezeléssel és grafikai tervezéssel foglalkozom.</span>
+        <span id="alcim">Motivation</span>
+
+        <span id="alcim">One Special</span>
+
+        <span id="alcim">Craziest story</span>
+    </div>
+`
 
 const masikcsapatszoveg = `
     <div id="content">
@@ -89,10 +143,10 @@ function masikcsapat() {
     fo.insertAdjacentHTML("beforeend", masikcsapatszoveg)
 }
 
-function bemutatkozo(nev, szoveg) {
+function bemutatkozo(szoveg) {
     const fo = document.getElementById("main")
     fo.innerHTML = ""
-    fo.insertAdjacentHTML("beforeend", `<div id="content"><span id="nev">${nev}</span><span>${szoveg}</span></div>`)
+    fo.insertAdjacentHTML("beforeend", szoveg)
 }
 
 function vissza() {
@@ -102,17 +156,17 @@ function vissza() {
 }
 
 function km() {
-    bemutatkozo(kmnev, kmszoveg)
+    bemutatkozo(kmszoveg)
 }
 
 function mr() {
-    bemutatkozo(mrnev, mrszoveg)
+    bemutatkozo(mrszoveg)
 }
 
 function bb() {
-    bemutatkozo(bbnev, bbszoveg)
+    bemutatkozo(bbszoveg)
 }
 
 function kb() {
-    bemutatkozo(kbnev, kbszoveg)
+    bemutatkozo(kbszoveg)
 }

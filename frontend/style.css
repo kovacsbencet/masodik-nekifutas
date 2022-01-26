@@ -227,6 +227,10 @@ img {
     border: 1px solid black;
 }
 
+.logo {
+    border: 0px;
+    
+}
 
 .kepek {
     display: flex;
@@ -235,7 +239,7 @@ img {
 
     justify-content: center;
 
-    margin-top: 60px;
+    margin-top: 130px;
 }
 
 .kepszoveg {
