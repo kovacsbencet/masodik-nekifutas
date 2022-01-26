@@ -43,13 +43,19 @@ const mrszoveg =`
         <span id="cim">Márta Richárd</span>
         <span id="alcim">Education</span>
         <span id="szoveg">Informatikai gimnázium</span>
-        <span id="alcim">Working Field</span>
-
+        <span id="alcim">Working Field(s)</span>
+        <span id="szoveg">2 év CNC esztergálás</span>
+        <span id="szoveg">~5 év kereskedelem (bolti eladó -> üv. helyettes -> üzletvezető)</span>
         <span id="alcim">Motivation</span>
-
-        <span id="alcim">One Special</span>
-
-        <span id="alcim">Craziest story</span>
+        <span id="szoveg">Mindig is informatikusként szerettem volna dolgozni, de a középiskola nem volt elég az elhelyezkedéshez, ezért elhatároztam hogy még "fiatalon" elvégzek egy kurzust</span>
+        <span id="alcim">3 things to know about me</span>
+        <span id="szoveg">Szerbiában éltem 19 évig, mégsem beszélem a nyelvet</span>
+        <span id="szoveg">Kedvenc italom a sör</span>
+        <span id="szoveg">Kedvenc ételem a sör</span>
+        <span id="alcim">3 celebrities to: have sex with, marry, or punch - (don't tell which is which)</span>
+        <span id="szoveg">Henry Cavill</span>
+        <span id="szoveg">Győzike</span>
+        <span id="szoveg">Jennifer Lawrence</span>
     </div>
 `
 
