@@ -88,10 +88,16 @@ const kbszoveg = `
         <span id="szoveg">Pannon Business Network - Junior projektmenedzser</span>
         <span id="szoveg">Egyéni vállalkozás - Weboldal készítés, Grafikai tervezés, Hirdetéskezelés</span>
         <span id="alcim">Motivation</span>
-        <span id="szoveg"></span>
+        <span id="szoveg">Fejleszteni a weboldal készítési képességeimet.</span>
+        <span id="szoveg">Saját webapplikáció készítése.</span>
         <span id="alcim">3 thins about me</span>
-        <span id="szoveg"></span>
+        <span id="szoveg">Szabadidőmben oroszul tanulok.</span>
+        <span id="szoveg">Szívesen sütök süteményeket.</span>
+        <span id="szoveg">Kedvenc italom a whiskey.</span>
         <span id="alcim">3 celebrities to: have sex with, marry, or punch - (don't tell which is which)</span>
+        <span id="szoveg">Dan Bilzerian</span>
+        <span id="szoveg">Anne Hathaway</span>
+        <span id="szoveg">Dwayne Johnson</span>
     </div>
 `
 
