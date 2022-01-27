@@ -26,14 +26,20 @@ const kmszoveg = `
     <div id="content">
         <span id="cim">Keresztes Mirella</span>
         <span id="alcim">Education</span>
-
+        <span id="szoveg">Semmelweis Egyetem Pető András Kar-Konduktor</span>
         <span id="alcim">Working Field</span>
-
+        <span id="szoveg">Megyei szakértői bizottság</span>
+        <span id="szoveg">Korai fejlesztés</span>
         <span id="alcim">Motivation</span>
-
-        <span id="alcim">One Special</span>
-
-        <span id="alcim">Craziest story</span>
+        <span id="szoveg">Pályamódosítás, érdeklődés az informatikai terület iránt</span>
+        <span id="alcim">3 things to know about me</span>
+        <span id="szoveg">Van egy testőröm a 3 kg-os kutyám személyében</span>
+        <span id="szoveg">Egyszer eltörtem a szegycsontom</span>
+        <span id="szoveg">Egyszer megtámadtak a majmok</span>
+        <span id="alcim">3 celebrities to: have sex with, marry, or punch - (don't tell which is which)</span>
+        <span id="szoveg">Jensen Ackles</span>
+        <span id="szoveg">Tom Ellis</span>
+        <span id="szoveg">Miller Dávid</span>
     </div>
 `
 
