@@ -107,7 +107,7 @@ const kbszoveg = `
         <span id="alcim">3 celebrities to: have sex with, marry, or punch - (don't tell which is which)</span>
         <span id="szoveg">Dan Bilzerian</span>
         <span id="szoveg">Anne Hathaway</span>
-        <span id="szoveg">Ryan Gosling</span>
+        <span id="szoveg">Ryan Reynolds/span>
     </div>
 `
 
