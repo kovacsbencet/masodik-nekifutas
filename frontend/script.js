@@ -3,7 +3,7 @@ const fooldalszoveg = `
         <span id="cim"><img class="logo" src="logo.jpg"/></span>
         <div class="kepek">
             <div class="kepszoveg">
-                <img src="placeholder.jpg"/>
+                <img src="kmirella.jpg"/>
                 <span class="kepalatt">Keresztes Mirella</span>
             </div>
             <div class="kepszoveg">
