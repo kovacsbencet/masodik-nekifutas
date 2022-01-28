@@ -77,10 +77,14 @@ const bbszoveg = `
         <span id="szoveg">Ganz - Stratégiai beszerzés</span>
         <span id="alcim">Motivation</span>
         <span id="szoveg">Belekezdeni valamibe, ami teljesn más, mint a gépgyártás iparág.</span>
-        <span id="alcim">One Special</span>
+        <span id="alcim">3 things to know about me</span>
         <span id="szoveg">Elvégeztem egy koktéltanfolyamot.</span>
-        <span id="alcim">Craziest story</span>
-        <span id="szoveg">Kislányom (Bori) cseperedését megélni.</span>  
+        <span id="szoveg">Szeretek fallabdázni.</span>
+        <span id="szoveg">Sose jutok oda, hogy végignyomjama a Doom: Eternal-t.</span>
+        <span id="alcim">3 celebrities to: have sex with, marry, or punch - (don't tell which is which)</span>
+        <span id="szoveg">Grumpy Cat</span>
+        <span id="szoveg">Mick Gordon</span>
+        <span id="szoveg">The Blizzard Team</span>
     </div>
 `
 
